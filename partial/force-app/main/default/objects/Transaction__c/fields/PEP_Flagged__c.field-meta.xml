@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PEP_Flagged__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( !ISBLANK(Contact__c),  Contact__r.PEP_Flagged__c  ,
+If( Opportunity__r.Account.IsPersonAccount ,Opportunity__r.Account.PersonContact.PEP_Flagged__c , Opportunity__r.Primary_Contact__r.PEP_Flagged__c))</formula>
+    <inlineHelpText>Check if Contact is Politically Exposed Persons</inlineHelpText>
+    <label>PEP Flagged?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

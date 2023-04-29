@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPDCredits_Generic__c</fullName>
+    <externalId>false</externalId>
+    <label>CPD Credits - Generic Competencies</label>
+    <summarizedField>CPD_Course_Certificate__c.CPD_Credits_Attained__c</summarizedField>
+    <summaryFilterItems>
+        <field>CPD_Course_Certificate__c.CPD_CourseType__c</field>
+        <operation>equals</operation>
+        <value>Generic Competency</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CPD_Course_Certificate__c.Salesperson_Record__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

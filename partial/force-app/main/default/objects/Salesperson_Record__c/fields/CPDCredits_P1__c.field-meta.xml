@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPDCredits_P1__c</fullName>
+    <externalId>false</externalId>
+    <label>CPD Credits - P1</label>
+    <summarizedField>CPD_Course_Certificate__c.CPD_Credits_Attained__c</summarizedField>
+    <summaryFilterItems>
+        <field>CPD_Course_Certificate__c.CPD_CourseType__c</field>
+        <operation>equals</operation>
+        <value>P1</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CPD_Course_Certificate__c.Salesperson_Record__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annex_D1_Customer_Particular</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Annex D1 Customer Particular</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = Account.Id, sendingExperience = &apos;null&apos;, isEmbedded = false, templateId = &apos;a0P5i00000578t5EAA&apos;, recordId = Account.Id, title = &apos;Generate Annex D1&apos;])}</url>
+</WebLink>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEA_Purchase_of_Residential_Property__c</fullName>
+    <description>Form 2-Estate Agency Agreement for the Purchase of Residential Property</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Form 2-Estate Agency Agreement for the Purchase of Residential Property</inlineHelpText>
+    <label>CEA Purchase of Residential Property</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Voided</fullName>
+                <default>false</default>
+                <label>Voided</label>
+            </value>
+            <value>
+                <fullName>Manually Uploaded</fullName>
+                <default>false</default>
+                <label>Manually Uploaded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

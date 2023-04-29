@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_FY</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Year__c</columns>
+    <columns>CPDCredits_Total__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>YearFilter__c</field>
+        <operation>equals</operation>
+        <value>Last FY</value>
+    </filters>
+    <label>Last FY</label>
+</ListView>

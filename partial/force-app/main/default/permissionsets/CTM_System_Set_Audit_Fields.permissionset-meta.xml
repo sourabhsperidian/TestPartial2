@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Set &apos;audit&apos; field values (CreatedDate, CreatedById, LastModifiedDate, LastModifiedById) for imported records.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CTM - System - Set Audit Fields</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateAuditFields</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UpdateWithInactiveOwner</name>
+    </userPermissions>
+</PermissionSet>

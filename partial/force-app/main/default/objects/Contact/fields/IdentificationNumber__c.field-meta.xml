@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IdentificationNumber__c</fullName>
+    <externalId>false</externalId>
+    <label>Identification Number</label>
+    <length>20</length>
+    <maskChar>asterisk</maskChar>
+    <maskType>lastFour</maskType>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>EncryptedText</type>
+</CustomField>

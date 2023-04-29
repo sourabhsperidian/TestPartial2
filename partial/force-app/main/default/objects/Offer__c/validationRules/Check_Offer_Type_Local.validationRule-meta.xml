@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Offer_Type_Local</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Project_Name__r.Country__c, &quot;Singapore&quot;),
+OR (ISPICKVAL(Offer_Type__c, &quot;Oversea Purchase&quot;), ISPICKVAL(Offer_Type__c, &quot;Oversea Rental&quot;)))</errorConditionFormula>
+    <errorMessage>Offer Type must be Local</errorMessage>
+</ValidationRule>

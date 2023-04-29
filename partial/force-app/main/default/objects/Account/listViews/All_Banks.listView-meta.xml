@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Banks</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>ACCOUNT.RATING</columns>
+    <columns>ACCOUNT_SOURCE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>IsActive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Bank</value>
+    </filters>
+    <label>All Banks</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_AML_Checked__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( !ISBLANK(Contact__c),  Contact__r.Is_AML_Checked__c ,
+If( Opportunity__r.Account.IsPersonAccount , Opportunity__r.Account.PersonContact.Is_AML_Checked__c , Opportunity__r.Primary_Contact__r.Is_AML_Checked__c ))</formula>
+    <label>Is AML Checked?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

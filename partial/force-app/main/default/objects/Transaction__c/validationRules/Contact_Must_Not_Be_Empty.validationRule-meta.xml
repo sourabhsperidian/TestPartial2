@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Must_Not_Be_Empty</fullName>
+    <active>true</active>
+    <description>Contact must not be empty if Opportunity is Empty</description>
+    <errorConditionFormula>AND((ISBLANK( Contact__c )),(ISBLANK( Opportunity__c )))</errorConditionFormula>
+    <errorMessage>Contact Cannot Be Blank If Opportunity Is Blank</errorMessage>
+</ValidationRule>

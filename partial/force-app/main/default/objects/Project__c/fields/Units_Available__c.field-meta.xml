@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Units_Available__c</fullName>
+    <externalId>false</externalId>
+    <label>Units Available</label>
+    <summarizedField>Project_Unit_Type__c.No_of_Available_Units__c</summarizedField>
+    <summaryForeignKey>Project_Unit_Type__c.Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

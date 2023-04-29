@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annex_D_Salesperson_s_Checklist_on_Customer_Due_Diligence_for_Sale_and_Purchase</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Annex D - Salesperson&apos;s Checklist on Customer Due Diligence for Sale and Purchase</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = Transaction__c.Id, sendingExperience = &apos;null&apos;, isEmbedded = false, templateId = &apos;a0P5i0000068kPKEAY&apos;, recordId = Transaction__c.Id, title = &apos;Generate Annex D&apos;])}</url>
+</WebLink>

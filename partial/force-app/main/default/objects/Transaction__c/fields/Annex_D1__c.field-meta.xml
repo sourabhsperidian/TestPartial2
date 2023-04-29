@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annex_D1__c</fullName>
+    <description>Customer’s Particulars Form for Sale and Purchase Transactions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer’s Particulars Form for Sale and Purchase Transactions</inlineHelpText>
+    <label>Annex D1</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Voided</fullName>
+                <default>false</default>
+                <label>Voided</label>
+            </value>
+            <value>
+                <fullName>Manually Uploaded</fullName>
+                <default>false</default>
+                <label>Manually Uploaded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

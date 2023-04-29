@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amenities</fullName>
+                <default>false</default>
+                <label>Amenities</label>
+            </value>
+            <value>
+                <fullName>Facilities</fullName>
+                <default>false</default>
+                <label>Facilities</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Layout</fullName>
+                <default>false</default>
+                <label>Layout</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Size</fullName>
+                <default>false</default>
+                <label>Size</label>
+            </value>
+            <value>
+                <fullName>Prefer another Project</fullName>
+                <default>false</default>
+                <label>Prefer another Project</label>
+            </value>
+            <value>
+                <fullName>Dropped</fullName>
+                <default>false</default>
+                <label>Dropped</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

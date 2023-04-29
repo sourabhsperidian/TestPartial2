@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annex_A_Checklist_for_lease_of_property_in_compliance_to_Women_Charter</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Annex A - Checklist for lease of property in compliance to Women&apos;s Charter</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(IF($Site.prefix == &apos;/s&apos;,&apos;/apex/dfsle__sending&apos;, $Site.Prefix +&apos;/apex/dfsle__sending&apos;), null, [sId = Transaction__c.Id, sendingExperience = &apos;null&apos;, isEmbedded = false, templateId = &apos;a0P5i0000068kPdEAI&apos;, recordId = Transaction__c.Id, title = &apos;Generate Annex A&apos;])}</url>
+</WebLink>

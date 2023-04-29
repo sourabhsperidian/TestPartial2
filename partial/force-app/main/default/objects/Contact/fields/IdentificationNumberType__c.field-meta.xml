@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IdentificationNumberType__c</fullName>
+    <externalId>false</externalId>
+    <label>Identification Number Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+                <label>Passport</label>
+            </value>
+            <value>
+                <fullName>NRIC</fullName>
+                <default>false</default>
+                <label>NRIC</label>
+            </value>
+            <value>
+                <fullName>E-Pass</fullName>
+                <default>false</default>
+                <label>E-Pass</label>
+            </value>
+            <value>
+                <fullName>S-Pass</fullName>
+                <default>false</default>
+                <label>S-Pass</label>
+            </value>
+            <value>
+                <fullName>Work Permit</fullName>
+                <default>false</default>
+                <label>Work Permit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
