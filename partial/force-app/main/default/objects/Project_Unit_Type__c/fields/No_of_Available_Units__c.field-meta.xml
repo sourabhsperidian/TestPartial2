@@ -6,7 +6,7 @@
     <summaryFilterItems>
         <field>Unit__c.Unit_Availability__c</field>
         <operation>equals</operation>
-        <value>Available</value>
+        <value>Available, ForSale</value>
     </summaryFilterItems>
     <summaryForeignKey>Unit__c.Project_Unit_Type__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

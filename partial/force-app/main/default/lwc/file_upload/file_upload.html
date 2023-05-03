@@ -1,0 +1,57 @@
+<template>
+   <!-- <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="standard:timesheet" alternative-text="Event" size="small"></lightning-icon>
+            &nbsp;
+        </h3>
+        <template for:each={itemList} for:item="item" for:index="index">
+            <lightning-record-edit-form key={item.id} object-api-name="Contact">
+                <lightning-messages> </lightning-messages>
+                
+                <lightning-layout multiple-rows>
+                       
+                    <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"
+                        padding="around-small">
+                        <lightning-input type="text" label="File Name" name="File Name" required>
+                        </lightning-input>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="12" small-device-size="6" medium-device-size="5" large-device-size="2"
+                        padding="around-medium">
+                        <lightning-input type="checkbox" label="Is Primary" name="Is Active?" onchange={handleCheckboxChange} data-id="checkbox">
+                        </lightning-input>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"
+                        padding="around-small">
+                        <lightning-input type="text" label="Description" name="Description" required>
+                        </lightning-input>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"
+                        padding="around-small">
+                        <lightning-file-upload 	label="Attach File" name="fileUploader" variant="label-stacked" multiple>
+                        </lightning-file-upload>
+                    </lightning-layout-item>
+                    
+                   
+                    <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"
+                        padding="around-small">
+                        <div class="slds-p-top_medium">
+                            <lightning-icon icon-name="action:new" access-key={item.id} id={index}
+                                alternative-text="Add Row" size="small" title="Add Row" onclick={addRow}>
+                            </lightning-icon>
+                            <lightning-icon icon-name="action:delete" access-key={item.id} id={index}
+                                alternative-text="Delete Row" size="small" title="Delete Row" onclick={removeRow}>
+                            </lightning-icon>
+                        </div>
+                    </lightning-layout-item>
+
+                </lightning-layout>
+            </lightning-record-edit-form>
+        </template>
+        <lightning-layout>
+            <div class="slds-align_absolute-center">
+                <lightning-button variant="success" onclick={handleSubmit} name="submit" label="Submit">
+                </lightning-button>
+            </div>
+        </lightning-layout>
+    </lightning-card> -->
+</template>

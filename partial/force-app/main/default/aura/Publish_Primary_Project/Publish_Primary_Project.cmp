@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId" controller="Druce_PrimaryPropertyAPI">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	Project Data Synced to Website. Please close window to continue further.
+</aura:component>

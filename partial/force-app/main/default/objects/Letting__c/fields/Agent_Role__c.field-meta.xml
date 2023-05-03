@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Agent Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Managed</fullName>
+                <default>false</default>
+                <label>Managed</label>
+            </value>
+            <value>
+                <fullName>RentCollection</fullName>
+                <default>false</default>
+                <label>RentCollection</label>
+            </value>
+            <value>
+                <fullName>CollectFirstPayment</fullName>
+                <default>false</default>
+                <label>CollectFirstPayment</label>
+            </value>
+            <value>
+                <fullName>CollectRentToDate</fullName>
+                <default>false</default>
+                <label>CollectRentToDate</label>
+            </value>
+            <value>
+                <fullName>LettingOnly</fullName>
+                <default>false</default>
+                <label>LettingOnly</label>
+            </value>
+            <value>
+                <fullName>IntroducingTenant</fullName>
+                <default>false</default>
+                <label>IntroducingTenant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

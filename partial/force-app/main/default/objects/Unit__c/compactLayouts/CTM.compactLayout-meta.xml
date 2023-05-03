@@ -7,6 +7,6 @@
     <fields>Unit_Availability__c</fields>
     <fields>No_of_Bedrooms__c</fields>
     <fields>No_of_Washrooms__c</fields>
-    <fields>Carpet_Area_m_square__c</fields>
+    <fields>Parking_Spaces__c</fields>
     <label>CTM</label>
 </CompactLayout>

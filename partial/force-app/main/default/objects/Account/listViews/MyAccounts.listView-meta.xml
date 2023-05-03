@@ -9,6 +9,8 @@
     <columns>IS_PERSON_ACCOUNT</columns>
     <columns>ACCOUNT.RECORDTYPE</columns>
     <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
     <filterScope>Mine</filterScope>
     <label>My Accounts</label>
 </ListView>

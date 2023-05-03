@@ -37,6 +37,11 @@
                 <default>false</default>
                 <label>Completed</label>
             </value>
+            <value>
+                <fullName>Published</fullName>
+                <default>false</default>
+                <label>Published</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

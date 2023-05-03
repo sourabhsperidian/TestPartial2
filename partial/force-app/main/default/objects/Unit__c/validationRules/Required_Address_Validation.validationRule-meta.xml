@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Address_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND((text(Unit_Path__c)=&quot;Upload Media&quot;), OR(ISBLANK(  Unit_Address__City__s ),ISBLANK(   Unit_Address__Street__s ),ISBLANK(   Unit_Address__PostalCode__s )), ISBLANK(Reapit_Id__c), Record_Type_Name__c &lt;&gt; &quot;Primary UK&quot; )</errorConditionFormula>
+    <errorMessage>Address is required before navigating to Upload Media Stage</errorMessage>
+</ValidationRule>

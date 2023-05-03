@@ -166,6 +166,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Units</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <searchResultsAdditionalFields>Project_Name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Project_Unit_Type__c</searchResultsAdditionalFields>

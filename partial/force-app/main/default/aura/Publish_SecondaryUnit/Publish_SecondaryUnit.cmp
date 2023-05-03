@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId" controller="syncSecondaryPropertyAPI">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	Unit Data Synced to Website. Please close window to continue further.
+</aura:component>

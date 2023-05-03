@@ -1,0 +1,11 @@
+<template>		
+	<lightning-combobox name="types" label="Select Queue" value={value} options={TypeOptions} onchange={handleTypeChange}> </lightning-combobox>
+		<br/><br/>
+		<div style="height: 250px;">
+        <lightning-datatable
+            key-field="Id"
+            data={groupMemberData}
+            columns={tableColumns}>
+        </lightning-datatable>
+    </div>
+</template>

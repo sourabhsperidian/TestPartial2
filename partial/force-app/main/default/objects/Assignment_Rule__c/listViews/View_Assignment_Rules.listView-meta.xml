@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View_Assignment_Rules</fullName>
+    <columns>NAME</columns>
+    <columns>Object__c</columns>
+    <columns>Public_Group__c</columns>
+    <columns>OfficeId__c</columns>
+    <columns>Business_Type__c</columns>
+    <columns>Active__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Object__c</field>
+        <operation>equals</operation>
+        <value>View</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>View Assignment Rules</label>
+</ListView>

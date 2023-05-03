@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_for_mortgage_advice__c</fullName>
+    <externalId>false</externalId>
+    <label>Request for mortgage advice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First time buyer mortgage</fullName>
+                <default>false</default>
+                <label>First time buyer mortgage</label>
+            </value>
+            <value>
+                <fullName>Remortgaging (barrow more/save money)</fullName>
+                <default>false</default>
+                <label>Remortgaging (barrow more/save money)</label>
+            </value>
+            <value>
+                <fullName>Moving home</fullName>
+                <default>false</default>
+                <label>Moving home</label>
+            </value>
+            <value>
+                <fullName>Buying to let</fullName>
+                <default>false</default>
+                <label>Buying to let</label>
+            </value>
+            <value>
+                <fullName>Buying in the UK whilst living overseas</fullName>
+                <default>false</default>
+                <label>Buying in the UK whilst living overseas</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

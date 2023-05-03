@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interests__c</fullName>
+    <externalId>false</externalId>
+    <label>Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Travelling</fullName>
+                <default>false</default>
+                <label>Travelling</label>
+            </value>
+            <value>
+                <fullName>Trading</fullName>
+                <default>false</default>
+                <label>Trading</label>
+            </value>
+            <value>
+                <fullName>Property Investment</fullName>
+                <default>false</default>
+                <label>Property Investment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -23,6 +23,10 @@
                 <behavior>Readonly</behavior>
                 <field>UnitsAvailability__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Project_Unity_Type_DB_Id__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -39,6 +43,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Square_Meter_Min__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Region__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

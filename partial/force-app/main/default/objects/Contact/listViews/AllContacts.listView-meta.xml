@@ -4,6 +4,7 @@
     <columns>FULL_NAME</columns>
     <columns>Gender__c</columns>
     <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
     <columns>CONTACT.PHONE1</columns>
     <columns>CONTACT.PHONE3</columns>
     <columns>CONTACT.EMAIL</columns>

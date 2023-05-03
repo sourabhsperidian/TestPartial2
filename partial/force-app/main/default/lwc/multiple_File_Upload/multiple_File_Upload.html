@@ -1,0 +1,70 @@
+<template>
+    <lightning-card>
+        <table class="slds-table">
+            <tr>
+                <th>File Name</th>
+								<th>Is Primary</th>
+                <th>Description</th>
+								<th>Choose File</th>
+                <th>Action</th>
+            </tr>
+            <template iterator:it={accounts}>
+                <tr key={it.value.Name}>
+                    <td>
+                        <lightning-input
+                            type="text"
+                            label="File Name"
+                            value={it.value.Name}
+                            data-record-id={it.index}
+                            onchange={handleChange}
+                            variant="label-hidden">
+                        </lightning-input>
+                    </td>
+                    <td>
+                        <lightning-input
+                            type="checkbox"
+                            label="Is Active?"
+                            value={it.value.Is_Primary__c}
+                            data-record-id={it.index}
+                            onchange={handleChange}
+                            variant="label-hidden">
+                        </lightning-input>                    
+                    </td>
+                    <td><lightning-input
+                            type="text"
+                            label="Description"
+                            value={it.value.Description}
+                            data-record-id={it.index}
+														variant="label-hidden"
+                            onchange={handleChange}>
+                        </lightning-input>
+                    </td>
+										<td>
+											<lightning-file-upload
+												label="Attach File"
+												name="fileUploader"
+												accept={acceptedFormats}
+												record-id={recordId}
+											  variant="label-hidden"
+												multiple>
+											</lightning-file-upload>
+										</td>
+                    <td><lightning-button
+                            variant="base"
+                            label="Delete"
+                            onclick={deleteRow}
+                            data-record-id={it.index}>
+                        </lightning-button>
+                    </td>
+										
+                </tr>
+            </template>
+            <tr>
+                <td><lightning-button label="Add Row" onclick={addRow}></lightning-button></td>
+            </tr>
+        </table>
+        <p slot="footer">
+            <lightning-button variant="brand" label="Submit Files" onclick={saveAccounts}></lightning-button>
+        </p>
+    </lightning-card>
+</template>

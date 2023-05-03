@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Basic_Detail_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>And(OR(ISBLANK(No_of_Bedrooms__c),ISBLANK(Build_Up_Area_m_square__c),ISBLANK(No_of_Washrooms__c),ISBLANK(Carpet_Area_m_square__c),ISBLANK(Unit_Number__c)),text(Unit_Path__c)=&quot;Address&quot;,ISBLANK(Reapit_Id__c))</errorConditionFormula>
+    <errorMessage>Please fill the Key Fields</errorMessage>
+</ValidationRule>

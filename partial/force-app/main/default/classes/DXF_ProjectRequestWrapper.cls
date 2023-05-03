@@ -1,0 +1,83 @@
+global  class DXF_ProjectRequestWrapper {
+
+    global List<datawrapper> data;
+    
+global class datawrapper{
+global String recordType;    
+global String area;
+global String area_guide;
+global String avaialble_from;
+global String Bathrooms;
+global String Bedrooms;
+global String City;
+global String Country;
+global String CreatedById;
+global String CurrencyIsoCode;
+global String dep;
+global String description;
+global String excerpt;
+global String Facilities;
+global String File_URL;
+global String Floorplans;
+global String furnishings;
+global String Hot;
+global String Image_URL;
+global String LastModifiedById;
+global String Lat;
+global String lng;
+global String Outdoorarea;
+global String OwnerId;
+global String Ownership;
+global String Parking;
+global String Pdf_Details;
+global String Planned_Handover_Date;
+global String Price;
+global String Project_Address;
+global String Project_Id_DB;
+global String Project_Id;
+global String Project_Name;
+global String Name;
+global String Project_Stage;
+global String Project_Summary;
+global String Property_Type;
+global String Property_Area;
+global String Property_Name;
+global String Property_Proj_Type;
+global String Reapit_date;
+global String Reapit_Epcs;
+global String Reapit_Featured;
+global String Reapit_internet_adv;
+global String Reapit_Type;
+global String Receptions;
+global String RecordTypeId;
+global String Related_Account;
+global String S3_File_Url;
+global String Seo_Address;
+global String Seo_Desc;
+global String Seo_Prefix;
+global String Seo_Url;
+global String Sponsor_Bank;
+global String Sq_ft;
+global String Project_Status;
+global String Status;
+global String Tags;
+global String Tenure;
+global String Tour_Caption;
+global String Tour_Caption_2;
+global String UnitsAvailability;
+global String Units_Available;
+global String Units_Sold;
+global String Virtual_Tour;
+global String Virtual_Tour_2;
+global String Garden;
+global String Patio;
+global String Floor_Number;
+global String EPC_Rating;
+global String Council_Tax_Band;
+global String Local_Authority;
+global String Nearby_Location;
+global String Rent_per_Month;
+global String Rent_per_Week;
+
+ }
+}

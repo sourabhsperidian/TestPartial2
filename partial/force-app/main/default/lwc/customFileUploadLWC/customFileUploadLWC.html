@@ -1,0 +1,31 @@
+<template>
+      <!-- loader -->
+    <div if:true={showSpinner}>
+        <lightning-spinner
+            alternative-text="Loading..." variant="brand" class="slds-is-fixed">
+        </lightning-spinner>
+    </div>
+    <!-----/loader------>
+   
+    <!-- Upload files card -->
+    <lightning-card  variant="Narrow"  title="Upload Files" icon-name="standard:file">
+        <div class="slds-var-p-around_small">
+            <lightning-layout multiple-rows>
+                <lightning-layout-item padding="around-small" size="12" medium-device-size="12" large-device-size="12">
+                    <lightning-input label="File" name="file uploader"
+                                     onchange={handleFileChange} type="file"
+                                     accept=".jpg, .csv, .png, .doc, .pdf">
+                    </lightning-input>
+                    <p if:true={fileName}>{fileName}</p>
+                </lightning-layout-item>
+ 
+                <lightning-layout-item size="12" class="slds-var-p-top_small">
+                    <lightning-button class="slds-align_absolute-center" variant="brand" label="Upload Files"
+                        onclick={uploadFile}>
+                    </lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+    <!-- /Upload files card -->
+</template>

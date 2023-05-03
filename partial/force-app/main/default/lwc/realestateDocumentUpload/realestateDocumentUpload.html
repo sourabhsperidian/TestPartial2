@@ -1,0 +1,53 @@
+<!-- sldsValidatorIgnore -->
+<!-- sldsValidatorIgnore -->
+<!-- sldsValidatorIgnore slds-box slds-box_small slds-size_small-->
+<template>
+<div>  
+    <lightning-card title="Document Upload" icon-name="custom:custom63">
+        <div class = "slds-theme_alt-inverse">
+        <lightning-button variant="Brand" label="AddNew" title="AddNew" onclick={newRecord} class="slds-m-left_x-small"></lightning-button>
+        </div>  
+       <div class="slds-m-around_medium">
+        <c-file-upload-data-table key-field="Id"
+                data={data}
+                columns={columns}
+                onsave={handleSave}
+                draft-values={saveDraftValues} 
+                onuploadfinished={handleUploadFinished}
+                onrowaction={handleRowActions}
+                hide-checkbox-column
+                show-row-number-column
+           >
+            </c-file-upload-data-table>
+        </div>
+
+       <div class ="slds-theme_alt-inverse"><span class = "slds-align_absolute-center">
+        <lightning-button variant="brand" label="Submit" onclick={handleSubmit}></lightning-button>
+    </span></div>
+    </lightning-card>
+</div> 
+
+<template if:true={showForm}> 
+    <section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="modal-heading-03" class="slds-modal slds-fade-in-open ">
+        <div class="slds-modal__container slds-p-around_small slds-size_large">
+            <div class="slds-modal__header slds-theme_inverse">
+            <h1 id="modal-heading-03" class="slds-modal__title slds-hyphenate">File Detail</h1>
+            </div>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                <lightning-input type="text" name="FileName" label="File Name" value = {FileNameVal} onchange = {handleFileChange} required="true" > </lightning-input>
+                <lightning-input type="checkbox" name= "IsPrimary" label="Primary Image" value= {IsPrimaryVal} onchange = {handlePrimaryChange} > </lightning-input>
+             <!--   <lightning-input type="checkbox" name= "EPC" label="EPC" value= {EPCVal} onchange = {handleEPCChange} > </lightning-input> -->
+                <lightning-input type="checkbox" name= "FloorPlan" label="Floor Plan" value= {FloorPlanVal} onchange = {handleFPlanChange} > </lightning-input>
+                <lightning-input type="checkbox" name="EPC" label="EPC" value= {EPCVal} onchange= {handleEPCChange} > </lightning-input>
+                </div>
+
+                    <div class="slds-modal__footer slds-theme_info">
+                    <button class="slds-button slds-button_neutral" onclick={handleClick} title="Save" >Save</button>
+                    <button class="slds-button slds-button_neutral" onclick={closeDialog} title="Cancel">Cancel</button>
+                    </div> 
+
+        </div> 
+    </section>
+</template>
+
+</template>

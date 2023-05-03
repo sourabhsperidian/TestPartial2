@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vacation_Places__c</fullName>
+    <externalId>false</externalId>
+    <label>Vacation Places</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scottish Highlands</fullName>
+                <default>false</default>
+                <label>Scottish Highlands</label>
+            </value>
+            <value>
+                <fullName>Norflok</fullName>
+                <default>false</default>
+                <label>Norflok</label>
+            </value>
+            <value>
+                <fullName>Windsor</fullName>
+                <default>false</default>
+                <label>Windsor</label>
+            </value>
+            <value>
+                <fullName>Pembrokeshire</fullName>
+                <default>false</default>
+                <label>Pembrokeshire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

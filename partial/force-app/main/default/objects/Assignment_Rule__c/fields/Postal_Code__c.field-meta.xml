@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postal_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Postal Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CR2 6XH</fullName>
+                <default>false</default>
+                <label>CR2 6XH</label>
+            </value>
+            <value>
+                <fullName>EC1A 1AA</fullName>
+                <default>false</default>
+                <label>EC1A 1AA</label>
+            </value>
+            <value>
+                <fullName>EC1A 1BB</fullName>
+                <default>false</default>
+                <label>EC1A 1BB</label>
+            </value>
+            <value>
+                <fullName>EC3N 4AB</fullName>
+                <default>false</default>
+                <label>EC3N 4AB</label>
+            </value>
+            <value>
+                <fullName>GU16 7HF</fullName>
+                <default>false</default>
+                <label>GU16 7HF</label>
+            </value>
+            <value>
+                <fullName>IG117RN</fullName>
+                <default>false</default>
+                <label>IG117RN</label>
+            </value>
+            <value>
+                <fullName>IG11 7RY</fullName>
+                <default>false</default>
+                <label>IG11 7RY</label>
+            </value>
+            <value>
+                <fullName>L1 8JQ</fullName>
+                <default>false</default>
+                <label>L1 8JQ</label>
+            </value>
+            <value>
+                <fullName>PH49</fullName>
+                <default>false</default>
+                <label>PH49</label>
+            </value>
+            <value>
+                <fullName>PO16 7GZ</fullName>
+                <default>false</default>
+                <label>PO16 7GZ</label>
+            </value>
+            <value>
+                <fullName>SW1A 0AA</fullName>
+                <default>false</default>
+                <label>SW1A 0AA</label>
+            </value>
+            <value>
+                <fullName>SW1A 0PW</fullName>
+                <default>false</default>
+                <label>SW1A 0PW</label>
+            </value>
+            <value>
+                <fullName>SW1A 1AA</fullName>
+                <default>false</default>
+                <label>SW1A 1AA</label>
+            </value>
+            <value>
+                <fullName>SW1A 2AA</fullName>
+                <default>false</default>
+                <label>SW1A 2AA</label>
+            </value>
+            <value>
+                <fullName>SW1W 0NY</fullName>
+                <default>false</default>
+                <label>SW1W 0NY</label>
+            </value>
+            <value>
+                <fullName>WC2N 5DU</fullName>
+                <default>false</default>
+                <label>WC2N 5DU</label>
+            </value>
+            <value>
+                <fullName>YO1 7JF</fullName>
+                <default>false</default>
+                <label>YO1 7JF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,49 @@
+<aura:component controller="wrapperCustomObjCtrCmp" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:isUrlAddressable" access="global" >
+    
+    <aura:attribute name="wrapListItems" type="Amazon_Files__c[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="recSelectId" type="String" default=""/>
+   
+    
+    <aura:attribute name="accept" type="List" default="['.jpg', '.jpeg','.pdf','.png']"/>
+    <aura:attribute name="multiple" type="Boolean" default="false"/>
+    <aura:attribute name="disabled" type="Boolean" default="false"/>
+   
+    
+    <div class="slds slds-p-horizontal--medium">
+        <table class="slds-table slds-table--bordered slds-table--col-bordered" style="border-collapse:collapse;">
+            <thead> 
+                <tr>
+                    <th>File Name</th>
+                    <th>Is Primary</th>
+                    <th>Description</th>
+                    <th>Upload File</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.wrapListItems}" var="wrapVar" indexVar="index">
+                    <tr>
+                        <td>{!wrapVar.fileName}</td>
+                        <td>{!wrapVar.isPrimary}</td>                        
+                        <td>{!wrapVar.description}</td>
+                        <td>
+                            <lightning:fileUpload
+                              multiple="{!v.multiple}" 
+                              accept="{!v.accept}"
+                              recordId="{!wrapVar.recId}" 
+                              onuploadfinished="{!c.uploadFileAction}" disabled="{!v.disabled}"/>
+                        </td>
+                        <td>
+                            <aura:if isTrue="{!wrapVar.checkAttachFile}"> 
+                                <lightning:buttonIcon  tabindex="{!wrapVar.recId}" iconName="utility:upload" name="{!wrapVar.recId}" variant="bare" onclick="{!c.navigateAttachFile}"/>
+                            </aura:if>
+                        </td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table> 
+  <!--End RelatedTopics Section-->
+    </div>
+    
+</aura:component>

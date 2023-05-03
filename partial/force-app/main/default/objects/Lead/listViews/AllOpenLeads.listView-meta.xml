@@ -14,8 +14,13 @@
     <filterScope>Everything</filterScope>
     <filters>
         <field>LEAD.STATUS</field>
-        <operation>notEqual</operation>
-        <value>Qualified</value>
+        <operation>equals</operation>
+        <value>New,Needs Analysis,Qualification,Aborted,Converted</value>
+    </filters>
+    <filters>
+        <field>Lead_Type__c</field>
+        <operation>equals</operation>
+        <value>Selling</value>
     </filters>
     <label>All Open Leads</label>
 </ListView>

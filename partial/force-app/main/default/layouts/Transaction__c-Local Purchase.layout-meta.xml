@@ -212,6 +212,11 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
+            <actionName>Annex_D1_Customer_s_Particulars_Form_for_Sale_and_Purchase_Transactions</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>3</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>0</sortOrder>
@@ -225,11 +230,6 @@
             <actionName>Annex_D_Salesperson_s_Checklist_on_Customer_Due_Diligence_for_Sale_and_Purchase</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>2</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Annex_D1_Customer_s_Particulars_Form_for_Sale_and_Purchase_Transactions</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Offer_to_Purchase</actionName>

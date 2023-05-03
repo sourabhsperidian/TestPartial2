@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Property Details</fullName>
+                <default>false</default>
+                <label>Property Details</label>
+            </value>
+            <value>
+                <fullName>Additional Details</fullName>
+                <default>false</default>
+                <label>Additional Details</label>
+            </value>
+            <value>
+                <fullName>Property Pictures</fullName>
+                <default>false</default>
+                <label>Property Pictures</label>
+            </value>
+            <value>
+                <fullName>Define Your Property</fullName>
+                <default>false</default>
+                <label>Define Your Property</label>
+            </value>
+            <value>
+                <fullName>Property Description</fullName>
+                <default>false</default>
+                <label>Property Description</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

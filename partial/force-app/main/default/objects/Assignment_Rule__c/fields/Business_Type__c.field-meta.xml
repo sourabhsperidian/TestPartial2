@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buying</fullName>
+                <default>false</default>
+                <label>Buying</label>
+            </value>
+            <value>
+                <fullName>Selling</fullName>
+                <default>false</default>
+                <label>Selling</label>
+            </value>
+            <value>
+                <fullName>Letting</fullName>
+                <default>false</default>
+                <label>Letting</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+            <value>
+                <fullName>Buying UK</fullName>
+                <default>false</default>
+                <label>Buying UK</label>
+            </value>
+            <value>
+                <fullName>Primary Sell UK</fullName>
+                <default>false</default>
+                <label>Primary Sell UK</label>
+            </value>
+            <value>
+                <fullName>Rental UK</fullName>
+                <default>false</default>
+                <label>Rental UK</label>
+            </value>
+            <value>
+                <fullName>Secondary Sell UK</fullName>
+                <default>false</default>
+                <label>Secondary Sell UK</label>
+            </value>
+            <value>
+                <fullName>Tenancy UK</fullName>
+                <default>false</default>
+                <label>Tenancy UK</label>
+            </value>
+            <value>
+                <fullName>Instant Valuation</fullName>
+                <default>false</default>
+                <label>Instant Valuation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

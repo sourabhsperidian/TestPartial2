@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CarpetArea_BuildUpArea_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR((Carpet_Area_m_square__c  &gt;  Build_Up_Area_m_square__c ),(Carpet_Area_square_ft__c  &gt;  Build_Up_Area_square_ft__c ))</errorConditionFormula>
+    <errorMessage>Carpet Area Should not be greater than Build Up Area</errorMessage>
+</ValidationRule>

@@ -3,7 +3,7 @@
     <fullName>Block_Name__c</fullName>
     <externalId>false</externalId>
     <label>Block Name</label>
-    <length>20</length>
+    <length>100</length>
     <required>false</required>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>

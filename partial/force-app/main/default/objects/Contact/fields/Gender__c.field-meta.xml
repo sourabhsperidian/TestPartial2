@@ -12,9 +12,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Non-Specific</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
-                <label>Non-Specific</label>
+                <label>Other</label>
             </value>
             <value>
                 <fullName>Female</fullName>

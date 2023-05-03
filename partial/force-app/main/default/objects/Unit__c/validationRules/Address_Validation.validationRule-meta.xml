@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_Validation</fullName>
+    <active>false</active>
+    <description>This validation fires for Secondary UK and Rental UK when streert, City and Postal Code empty</description>
+    <errorConditionFormula>AND(
+   RecordType.Name &lt;&gt; &apos;Primary UK&apos;, 
+   ISBLANK(Unit_Address__Street__s), 
+   ISBLANK(Unit_Address__City__s),
+   ISBLANK( Unit_Address__PostalCode__s ) 
+)</errorConditionFormula>
+    <errorMessage>Please enter Street, City and Postal Code</errorMessage>
+</ValidationRule>
